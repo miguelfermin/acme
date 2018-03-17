@@ -56,10 +56,7 @@ After the Minimum Cost, the Plan increases as items added.
 `Cost per Item` is simply the cost of adding an item to the Plan.
 
 
-### Search
-Pending....
-
-### Cart
+### Items
 Pending....
 
 ### Account
