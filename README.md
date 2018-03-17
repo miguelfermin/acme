@@ -16,31 +16,31 @@ Acme's current Appliances Plan only covers the following items:
 
 | Item         | Purshase Date | Purshase Price|
 |--------------|---------------|---------------|
-| Stove        | 1 year        | $0.00         |
-| Refrigerator | 1 year        | $0.00         |
-| Dishwasher   | 1 year        | $0.00         |
-| Washer       | 1 year        | $0.00         |
-| Dryer        | 1 year        | $0.00         |
-| Microwave    | 1 year        | $0.00         |
-| Blender      | 1 year        | $0.00         |
-| Toaster      | 1 year        | $0.00         |
+| Stove        | 1 year        | $900.00       |
+| Refrigerator | 1 year        | $1,100.00     |
+| Dishwasher   | 1 year        | $600.00       |
+| Washer       | 1 year        | $500.00       |
+| Dryer        | 1 year        | $400.00       |
+| Microwave    | 1 year        | $300.00       |
+| Blender      | 1 year        | $100.00       |
+| Toaster      | 1 year        | $100.00       |
 
 Acme's current Electronics Plan only covers the following items:
 
 | Item         | Purshase Date | Purshase Price|
 |--------------|---------------|---------------|
-| TV           | 1 year        | $0.00         |
-| Radio        | 1 year        | $0.00         |
-| Computer     | 1 year        | $0.00         |
-| Camera       | 1 year        | $0.00         |
-| Smart Phone  | 1 year        | $0.00         |
-| Tablet       | 1 year        | $0.00         |
-| Printer      | 1 year        | $0.00         |
-| Thermostat   | 1 year        | $0.00         |
+| TV           | 1 year        | $600.00       |
+| Radio        | 1 year        | $340.00       |
+| Computer     | 1 year        | $800.00       |
+| Camera       | 1 year        | $230.00       |
+| Smart Phone  | 1 year        | $700.00       |
+| Tablet       | 1 year        | $650.00       |
+| Printer      | 1 year        | $300.00       |
+| Thermostat   | 1 year        | $250.00       |
 
 > The reason these products were initially selected is their simple **price** structure
 
-Selected Plans price structure:
+Price structure:
 
 | Plan         | Minimum Cost | Cost per Item |
 |--------------|--------------|---------------|
