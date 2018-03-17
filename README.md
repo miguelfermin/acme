@@ -33,7 +33,7 @@ Acme's current Electronics Plan only covers the following items:
 | Radio        | 1 year        | $340.00       |
 | Computer     | 1 year        | $800.00       |
 | Camera       | 1 year        | $230.00       |
-| Smart Phone  | 1 year        | $700.00       |
+| Smartphone   | 1 year        | $700.00       |
 | Tablet       | 1 year        | $650.00       |
 | Printer      | 1 year        | $300.00       |
 | Thermostat   | 1 year        | $250.00       |
