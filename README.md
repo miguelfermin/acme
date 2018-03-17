@@ -10,7 +10,7 @@ This repository is going to track Acme's ambitions to transform itself into a di
 
 Acme sells Auto, Home, Appliances, Retirement, Health, and Consumer Electronics insurance products (Plan). But the initial plan is to digitize only its Appliances and Consumer Electronics products.
 
-## Products
+### Products
 
 Acme's current Appliances Plan only covers the following items:
 
@@ -56,13 +56,13 @@ After the Minimum Cost, the Plan increases as items added.
 `Cost per Item` is simply the cost of adding an item to the Plan.
 
 
-## Items
+### Items
 The system should have a pool of searchable Items that qualify for an available Plan.
 >There's no point in having items that cannot be added to any plan.
 
 Keep track of items that are intended to be added to a Plan so the user could finish the transaction later. This functionality is similar to an Amazon shopping cart where clients can add items and buy them later.
 
-## Account
+### Account
 In order to use the system, a user most have account. The system should allow users to create accounts that contain their personal and contact information:.
 
 - first Name
@@ -80,47 +80,47 @@ And credentials to login:
 - username
 - password
 
-## Billing
+### Billing
 Pending....
 
-## Claims
+### Claims
 Pending....
 
 # Technologies
 
-## Backend - .Net Core 2.0
+### Backend - .Net Core 2.0
 The backend is developed in [.NET Core 2](https://github.com/dotnet/core) on a mac using [Visual Studio for Mac Community](https://www.visualstudio.com/vs/mac/) and [Visual Studio Code](https://code.visualstudio.com).
 
 For persistene Entity Framework [EF Core 2.0.2](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/2.0.2) with [SQLite](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Sqlite) as the underlying database are used.
 
-### Architecture
+#### Architecture
 Pending...
 
-## Client App - iOS
+### Client App - iOS
 Native [iOS](https://www.apple.com/ios/ios-11/) app develop in [Xcode](https://developer.apple.com/xcode/) using the [Swift](https://swift.org) Programming Language.
 
-### Design
+#### Design
 Pending...
 
-### Architecture
+#### Architecture
 Pending...
 
-## Client App - Android
+### Client App - Android
 Native [Android](https://www.android.com) app develop in [Android Studio](https://developer.android.com/studio/index.html) using the [Kotlin](https://kotlinlang.org) Programming Language.
 
-### Design
+#### Design
 Pending...
 
-### Architecture
+#### Architecture
 Pending...
 
-## Administrative App - React
+### Administrative App - React
 A web app develop in [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) using the popular [React](https://reactjs.org) web-framework
 
-### Design
+#### Design
 Pending...
 
-### Architecture
+#### Architecture
 Pending...
 
 # Who do I talk to?
