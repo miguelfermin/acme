@@ -55,7 +55,6 @@ After the Minimum Cost, the Plan increases as items added.
 
 `Cost per Item` is simply the cost of adding an item to the Plan.
 
-
 ### Items
 The system should have a pool of searchable Items that qualify for an available Plan.
 >There's no point in having items that cannot be added to any plan.
@@ -63,25 +62,12 @@ The system should have a pool of searchable Items that qualify for an available 
 Keep track of items that are intended to be added to a Plan so the user could finish the transaction later. This functionality is similar to an Amazon shopping cart where clients can add items and buy them later.
 
 ### Account
-In order to use the system, a user most have account. The system should allow users to create accounts that contain their personal and contact information:.
+In order to use the system, a user most have account. The system should allow users to create accounts that contain their personal and contact information: `first Name`, `last Name`, `phone`, `email`, `street`, `city`, `state`, `zip code`, and `country`.
 
-- first Name
-- last Name
-- phone
-- email
-- street
-- city
-- state
-- zip code
-- country
-
-And credentials to login:
-
-- username
-- password
+Also, login credentials: `username` and `password`
 
 ### Billing
-Pending....
+Store customers' billing information which will be use to purshase Plans, pay recurring fees, and pay deductibles during a claim.
 
 ### Claims
 Pending....
