@@ -1,7 +1,7 @@
 # acme
 Acme Corp is a fictional company that has been selling insurance products for over 30 years. However, Acme hasn't kept up with technology and still sells its products manually - over the phone, in person, by mail, etc. 
 
-This repository is going to track Acme's ambitions to transform itself into a digital power house. This will consist of the following [Projects](acme#technologies):
+This repository is going to track Acme's ambitions to transform itself into a digital power house. This will consist of the following [Projects](https://github.com/miguelfermin/acme#technologies):
 
 * .NET Core monolithic backend
 * iOS client app (Swift)
