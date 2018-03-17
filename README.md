@@ -86,7 +86,7 @@ Pending....
 ## Claims
 Pending....
 
-#Technologies
+# Technologies
 
 ## Backend - .Net Core 2.0
 The backend is developed in [.NET Core 2](https://github.com/dotnet/core) on a mac using [Visual Studio for Mac Community](https://www.visualstudio.com/vs/mac/) and [Visual Studio Code](https://code.visualstudio.com).
