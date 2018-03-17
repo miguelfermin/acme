@@ -69,6 +69,8 @@ Also, login credentials: `username` and `password`
 ### Billing
 Store customers' billing information which will be use to purshase Plans, pay recurring fees, and pay deductibles during a claim.
 
+Also provide detailed payments and billing history.
+
 ### Claims
 Pending....
 
