@@ -1,14 +1,21 @@
 # acme
-Acme Corp is a fictional company that has been selling insurance products for over 30 years. However, Acme hasn't kept up with technology and still sells its products manually - over the phone, in person, by mail, etc. 
-
-This repository is going to track Acme's ambitions to transform itself into a digital power house. This will consist of the following [Projects](https://github.com/miguelfermin/acme#technologies):
-
-* .NET Core monolithic backend
-* iOS client app (Swift)
-* Android client app (Kotlin)
-* React web internal app
+Acme Corp is a fictional company that has been selling insurance products for over 30 years. However, Acme hasn't kept up with technology and still sells its products over the phone, in person, by mail, etc. 
 
 Acme sells Auto, Home, Appliances, Retirement, Health, and Consumer Electronics insurance products (Plan). But the initial plan is to digitize only its Appliances and Consumer Electronics products.
+
+This repository is going to track Acme's ambitions to transform itself into a digital power house.
+
+### Applications
+Acme wants to reach as many customers as possible, thus it plans to provide Mobile and Web apps to connect to its (*soon to be developed*) Backend system.
+
+This digital power house consists of the following applications:
+
+* [Backend App](https://github.com/miguelfermin/acme) (.NET Core)
+* [iOS App](https://github.com/miguelfermin/acme-ios) (Swift)
+* [Android App](https://github.com/miguelfermin/acme-android) (Kotlin)
+* [Web App](https://github.com/miguelfermin/acme-web) (React)
+
+System Requirements and the Backend Application are hosted on this repository. Client applications are hosted on their own repositories.
 
 >Note: Development is tracked in [Trello](https://trello.com) (*I personally prefer [Asana](https://asana.com/) but you can't have public boards for non-team members*). Below are the progress boards:
 >
@@ -17,6 +24,11 @@ Acme sells Auto, Home, Appliances, Retirement, Health, and Consumer Electronics 
 > - [acme-android Trello Board](https://trello.com/b/myv4c7t9/acme-android)
 > - [acme-web Trello Board](https://trello.com/b/myv4c7t9/acme-web)
 
+>Note: Besides development work, which is tracked on Trello, I needed a way to share my thought process as I develop these applications. I chose [postach.io](https://postach.io/site) because it's free, easy to use, and it syncs with my [Evernote](https://evernote.com/) account.
+>
+>I'll be posting my thought process as I work on this projects at my [postach site](http://miguelfermin.postach.io/post/published).
+
+## System Requirements
 ### Products
 
 Acme's current Appliances Plan only covers the following items:
