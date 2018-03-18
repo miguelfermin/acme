@@ -106,29 +106,17 @@ Pending...
 ### Client App - iOS
 Native [iOS](https://www.apple.com/ios/ios-11/) app develop in [Xcode](https://developer.apple.com/xcode/) using the [Swift](https://swift.org) Programming Language.
 
-#### Design
-Pending...
-
-#### Architecture
-Pending...
+[acme-ios](https://github.com/miguelfermin/acme-ios)
 
 ### Client App - Android
 Native [Android](https://www.android.com) app develop in [Android Studio](https://developer.android.com/studio/index.html) using the [Kotlin](https://kotlinlang.org) Programming Language.
 
-#### Design
-Pending...
+[acme-android](https://github.com/miguelfermin/acme-android)
 
-#### Architecture
-Pending...
-
-### Administrative App - React
+### Web App - React
 A web app develop in [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) using the popular [React](https://reactjs.org) web-framework
 
-#### Design
-Pending...
-
-#### Architecture
-Pending...
+[acme-web](https://github.com/miguelfermin/acme-web)
 
 # Who do I talk to?
 Miguel Fermin via
@@ -138,6 +126,3 @@ Miguel Fermin via
 [LinkedIn](https://www.linkedin.com/in/miguel-fermin-94658544/)
 
 [Twitter](https://twitter.com/mfermineet)
-
-
-
