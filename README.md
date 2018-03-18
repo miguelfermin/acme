@@ -5,7 +5,7 @@ Acme sells Auto, Home, Appliances, Retirement, Health, and Consumer Electronics 
 
 This repository is going to track Acme's ambitions to transform itself into a digital power house.
 
-### Applications
+## Applications
 Acme wants to reach as many customers as possible, thus it plans to provide Mobile and Web apps to connect to its (*soon to be developed*) Backend system.
 
 This digital power house consists of the following applications:
