@@ -10,10 +10,10 @@ Acme wants to reach as many customers as possible, thus it plans to provide Mobi
 
 This digital power house consists of the following applications:
 
-* [Backend App](https://github.com/miguelfermin/acme) (.NET Core)
-* [iOS App](https://github.com/miguelfermin/acme-ios) (Swift)
-* [Android App](https://github.com/miguelfermin/acme-android) (Kotlin)
-* [Web App](https://github.com/miguelfermin/acme-web) (React)
+* [Backend App](https://github.com/miguelfermin/acme)
+* [iOS App](https://github.com/miguelfermin/acme-ios)
+* [Android App](https://github.com/miguelfermin/acme-android)
+* [Web App](https://github.com/miguelfermin/acme-web)
 
 System Requirements and the Backend Application are hosted on this repository. Client applications are hosted on their own repositories.
 
