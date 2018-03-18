@@ -17,12 +17,12 @@ This digital power house consists of the following applications:
 
 System Requirements and the Backend Application are hosted on this repository. Client applications are hosted on their own repositories.
 
->Development is tracked in [Trello](https://trello.com) (*I personally prefer [Asana](https://asana.com/) but you can't have public boards for non-team members*). Below are the progress boards:
->
-> - [acme](https://trello.com/b/myv4c7t9/acme)
-> - [acme-ios](https://trello.com/b/vr7USb5m/acme-ios)
-> - [acme-android](https://trello.com/b/ldwAQKcP/acme-android)
-> - [acme-web](https://trello.com/b/3iwGk4oQ/acme-web)
+Development is tracked in [Trello](https://trello.com) (*I personally prefer [Asana](https://asana.com/) but you can't have public boards for non-team members*). Below are the progress boards:
+
+- [acme](https://trello.com/b/myv4c7t9/acme)
+- [acme-ios](https://trello.com/b/vr7USb5m/acme-ios)
+- [acme-android](https://trello.com/b/ldwAQKcP/acme-android)
+- [acme-web](https://trello.com/b/3iwGk4oQ/acme-web)
 
 >Besides development work, which is tracked on Trello, I needed a way to share my thought process as I develop these applications. I chose [postach.io](https://postach.io/site) because it's free, easy to use, and it syncs with my [Evernote](https://evernote.com/) account.
 >
