@@ -126,3 +126,5 @@ Miguel Fermin via
 [LinkedIn](https://www.linkedin.com/in/miguel-fermin-94658544/)
 
 [Twitter](https://twitter.com/mfermineet)
+
+[Postach.io](http://miguelfermin.postach.io/post/published)
