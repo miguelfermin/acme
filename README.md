@@ -10,6 +10,13 @@ This repository is going to track Acme's ambitions to transform itself into a di
 
 Acme sells Auto, Home, Appliances, Retirement, Health, and Consumer Electronics insurance products (Plan). But the initial plan is to digitize only its Appliances and Consumer Electronics products.
 
+>Note: Development is tracked in [Trello](https://trello.com) (*I personally prefer [Asana](https://asana.com/) but you can't have public boards for non-team members*). Below are the progress boards:
+>
+> - [acme Trello Board](https://trello.com/b/myv4c7t9/acme)
+> - [acme-ios Trello Board](https://trello.com/b/myv4c7t9/acme-ios)
+> - [acme-android Trello Board](https://trello.com/b/myv4c7t9/acme-android)
+> - [acme-web Trello Board](https://trello.com/b/myv4c7t9/acme-web)
+
 ### Products
 
 Acme's current Appliances Plan only covers the following items:
