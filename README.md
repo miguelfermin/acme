@@ -104,7 +104,7 @@ The claim form is very simple and is the same for all Products. Below is a sampl
 
 **Was the item damaged in an accident?:** yes or no
 
-**Comments:** optional comments
+**Comments:** optional
 
 # Technologies
 
