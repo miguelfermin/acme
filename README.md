@@ -88,10 +88,23 @@ Also, login credentials: `username` and `password`
 ### Billing
 Store customers' billing information which will be use to purshase Plans, pay recurring fees, and pay deductibles during a claim.
 
-Also provide detailed payments and billing history.
-
 ### Claims
-Pending....
+The claims system should work as follows:
+
+- Client requests claims form for a given item
+- System returns the form to complete
+- Client completes and submits the form
+- System accepts claim deductible payment
+
+The claim form is very simple and is the same for all Products. Below is a sample form:
+
+>**Item:** item
+>
+**Is the item partially functional?:** yes or no
+>
+**Was the item damaged in an accident?:** yes or no
+>
+**Comments:** optional comments
 
 # Technologies
 
