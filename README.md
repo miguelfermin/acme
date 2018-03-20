@@ -26,7 +26,7 @@ Development is tracked in [Trello](https://trello.com) (*I personally prefer [As
 
 >Besides development work, which is tracked on Trello, I needed a way to share my thought process as I develop these applications. I chose [postach.io](https://postach.io/site) because it's free, easy to use, and it syncs with my [Evernote](https://evernote.com/) account.
 >
->I'll be posting my thought process as I work on this projects at my [postach site](http://miguelfermin.postach.io/post/published).
+>I'll be posting my thought process as I work on this projects at my [postach site](http://miguelfermin.postach.io).
 
 ## System Requirements
 ### Products
