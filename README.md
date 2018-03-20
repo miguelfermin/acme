@@ -98,12 +98,12 @@ The claims system should work as follows:
 
 The claim form is very simple and is the same for all Products. Below is a sample form:
 
->**Item:** item
->
+**Item:** item
+
 **Is the item partially functional?:** yes or no
->
+
 **Was the item damaged in an accident?:** yes or no
->
+
 **Comments:** optional comments
 
 # Technologies
