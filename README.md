@@ -5,21 +5,24 @@ Acme sells Auto, Home, Appliances, Retirement, Health, and Consumer Electronics 
 
 This repository is going to track Acme's ambitions to transform itself into a digital power house.
 
-Content:
 
-1.[Applications](https://github.com/miguelfermin/acme#applications)
-2.[System Requirements](https://github.com/miguelfermin/acme#system-requirements)
-	2.1.[Plans](ddddd)
-	2.2.[Items](ddddd)
-	2.3.[Account](ddddd)
-	2.4.[Billing](ddddd)
-	2.5.[Claims](ddddd)
-3.[Technologies](https://github.com/miguelfermin/acme#technologies)
+# Table of Contents
+1. [Applications](#applications)
+
+2. [System Requirements](#system-requirements)
+	1 [Plans](ddddd)
+	2 [Items](ddddd)
+	3 [Account](ddddd)
+	4 [Billing](ddddd)
+	5 [Claims](ddddd)
+
+3. [Technologies](#technologies)
 	3.1.[Backend - .Net Core 2.0](ddddd)
 	3.2.[Mobile App - iOS](ddddd)
 	3.3.[Mobile App - Android](ddddd)
 	3.4.[Web App - React](ddddd)
-4.[Who do I talk to?](https://github.com/miguelfermin/acme#who-do-i-talk-to)
+
+4. [Who do I talk to?](#who-do-i-talk-to)
 
 # Applications
 Acme wants to reach as many customers as possible, thus it plans to provide Mobile and Web apps to connect to its (*soon to be developed*) Backend system.
