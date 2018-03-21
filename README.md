@@ -10,17 +10,17 @@ This repository is going to track Acme's ambitions to transform itself into a di
 1. [Applications](#applications)
 
 2. [System Requirements](#system-requirements)
-	1. [Plans](ddddd)
-	2. [Items](ddddd)
-	3. [Account](ddddd)
-	4. [Billing](ddddd)
-	5. [Claims](ddddd)
+	1. [Plans](#plans)
+	2. [Items](#items)
+	3. [Account](#account)
+	4. [Billing](#billing)
+	5. [Claims](#claims)
 
 3. [Technologies](#technologies)
-	1. [Backend - .Net Core 2.0](ddddd)
-	2. [Mobile App - iOS](ddddd)
-	3. [Mobile App - Android](ddddd)
-	4. [Web App - React](ddddd)
+	1. [Backend - .Net Core 2.0](#backend---net-core-20)
+	2. [Mobile App - iOS](#mobile-app---ios)
+	3. [Mobile App - Android](#mobile-app---android)
+	4. [Web App - React](#web-app---react)
 
 4. [Who do I talk to?](#who-do-i-talk-to)
 
