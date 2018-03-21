@@ -6,21 +6,21 @@ Acme sells Auto, Home, Appliances, Retirement, Health, and Consumer Electronics 
 This repository is going to track Acme's ambitions to transform itself into a digital power house.
 
 
-# Table of Contents
+## Table of Contents
 1. [Applications](#applications)
 
 2. [System Requirements](#system-requirements)
-	1 [Plans](ddddd)
-	2 [Items](ddddd)
-	3 [Account](ddddd)
-	4 [Billing](ddddd)
-	5 [Claims](ddddd)
+	1. [Plans](ddddd)
+	2. [Items](ddddd)
+	3. [Account](ddddd)
+	4. [Billing](ddddd)
+	5. [Claims](ddddd)
 
 3. [Technologies](#technologies)
-	3.1.[Backend - .Net Core 2.0](ddddd)
-	3.2.[Mobile App - iOS](ddddd)
-	3.3.[Mobile App - Android](ddddd)
-	3.4.[Web App - React](ddddd)
+	1. [Backend - .Net Core 2.0](ddddd)
+	2. [Mobile App - iOS](ddddd)
+	3. [Mobile App - Android](ddddd)
+	4. [Web App - React](ddddd)
 
 4. [Who do I talk to?](#who-do-i-talk-to)
 
