@@ -5,8 +5,6 @@ Acme sells Auto, Home, Appliances, Retirement, Health, and Consumer Electronics 
 
 This repository is going to track Acme's ambitions to transform itself into a digital power house.
 
-
-## Table of Contents
 1. [Applications](#applications)
 
 2. [System Requirements](#system-requirements)
