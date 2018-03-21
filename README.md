@@ -1,7 +1,7 @@
 # acme
-Acme Corp is a fictional company that has been selling insurance products for over 30 years. However, Acme hasn't kept up with technology and still sells its products over the phone, in person, by mail, etc. 
+Acme Corp is a fictional company that has been selling insurance products (*Plans*) for over 30 years. However, Acme hasn't kept up with technology and still sells its Plans over the phone, in person, or by mail. 
 
-Acme sells Auto, Home, Appliances, Retirement, Health, and Consumer Electronics insurance products (Plan). But the initial plan is to digitize only its Appliances and Consumer Electronics products.
+Acme sells Auto, Home, Appliances, Retirement, Health, and Consumer Electronics Insurance Plans. But the initial plan is to digitize only Appliances and Consumer Electronics.
 
 This repository is going to track Acme's ambitions to transform itself into a digital power house.
 
@@ -29,35 +29,37 @@ Development is tracked in [Trello](https://trello.com) (*I personally prefer [As
 >I'll be posting my thought process as I work on this projects at my [postach site](http://miguelfermin.postach.io).
 
 ## System Requirements
-### Products
+### Plans
 
 Acme's current Appliances Plan only covers the following items:
 
-| Item         | Purshase Date | Purshase Price|
-|--------------|---------------|---------------|
-| Stove        | 1 year        | $900.00       |
-| Refrigerator | 1 year        | $1,100.00     |
-| Dishwasher   | 1 year        | $600.00       |
-| Washer       | 1 year        | $500.00       |
-| Dryer        | 1 year        | $400.00       |
-| Microwave    | 1 year        | $300.00       |
-| Blender      | 1 year        | $100.00       |
-| Toaster      | 1 year        | $100.00       |
+| Item         | Purshase Date    | Purshase Price|
+|--------------|------------------|---------------|
+| Stove        | less than 1 year | $900.00       |
+| Refrigerator | less than 1 year | $1,100.00     |
+| Dishwasher   | less than 1 year | $600.00       |
+| Washer       | less than 1 year | $500.00       |
+| Dryer        | less than 1 year | $400.00       |
+| Microwave    | less than 1 year | $300.00       |
+| Blender      | less than 1 year | $100.00       |
+| Toaster      | less than 1 year | $100.00       |
 
 Acme's current Electronics Plan only covers the following items:
 
-| Item         | Purshase Date | Purshase Price|
-|--------------|---------------|---------------|
-| TV           | 1 year        | $600.00       |
-| Radio        | 1 year        | $340.00       |
-| Computer     | 1 year        | $800.00       |
-| Camera       | 1 year        | $230.00       |
-| Smartphone   | 1 year        | $700.00       |
-| Tablet       | 1 year        | $650.00       |
-| Printer      | 1 year        | $300.00       |
-| Thermostat   | 1 year        | $250.00       |
+| Item         | Purshase Date  | Purshase Price|
+|--------------|----------------|---------------|
+| TV           | less than year | $600.00       |
+| Radio        | less than year | $340.00       |
+| Computer     | less than year | $800.00       |
+| Camera       | less than year | $230.00       |
+| Smartphone   | less than year | $700.00       |
+| Tablet       | less than year | $650.00       |
+| Printer      | less than year | $300.00       |
+| Thermostat   | less than year | $250.00       |
 
-> The reason these products were initially selected is their simple **price** structure
+The `Purshase Date` and `Purshase Price` are requirements an item must meet in order to qualify for a Plan.
+
+> The reason these Plans were initially selected is their simple **price** structure
 
 Price structure:
 
@@ -81,9 +83,7 @@ The system should have a pool of searchable Items that qualify for an available 
 Keep track of items that are intended to be added to a Plan so the user could finish the transaction later. This functionality is similar to an Amazon shopping cart where clients can add items and buy them later.
 
 ### Account
-In order to use the system, a user most have account. The system should allow users to create accounts that contain their personal and contact information: `first Name`, `last Name`, `phone`, `email`, `street`, `city`, `state`, `zip code`, and `country`.
-
-Also, login credentials: `username` and `password`
+In order to use the system, a user most have an account. The system should allow users to create accounts that contain their personal and contact information: `first Name`, `last Name`, `phone`, `email`, `street`, `city`, `state`, `zip code`, and `country`. As well as login credentials: `username` and `password`
 
 ### Billing
 Store customers' billing information which will be use to purshase Plans, pay recurring fees, and pay deductibles during a claim.
@@ -96,16 +96,15 @@ The claims system should work as follows:
 - Client completes and submits the form
 - System accepts claim deductible payment
 
-The claim form is very simple and is the same for all Products. Below is a sample form:
+>The claim form is very simple and is the same for all Plans.
 
-**Item:** item
+Sample form:
 
-**Is the item partially functional?:** yes or no
-
-**Was the item damaged in an accident?:** yes or no
-
-**Comments:** optional
-
+	   Item:________.
+	   Is the item partially functional (y/n)?________.
+	   Was the item damaged in an accident (y/n)?________.
+	   Comments________.
+   
 # Technologies
 
 ### Backend - .Net Core 2.0
@@ -140,4 +139,3 @@ Miguel Fermin via
 
 [Twitter](https://twitter.com/mfermineet)
 
-[Postach.io](http://miguelfermin.postach.io/post/published)
