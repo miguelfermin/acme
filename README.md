@@ -57,7 +57,7 @@ Acme's current Electronics Plan only covers the following items:
 | Printer      | less than year | $300.00       |
 | Thermostat   | less than year | $250.00       |
 
-The `Purshase Date` and `Purshase Price` are requirements an item must meet in order to qualify for a Plan.
+The `Purshase Date` and `Purshase Price` are Plan requirements.
 
 > The reason these Plans were initially selected is their simple **price** structure
 
@@ -100,10 +100,10 @@ The claims system should work as follows:
 
 Sample form:
 
-	   Item:________.
-	   Is the item partially functional (y/n)?________.
-	   Was the item damaged in an accident (y/n)?________.
-	   Comments________.
+	   Item:________________________________________________
+	   Is the item partially functional (y/n)?______________
+	   Was the item damaged in an accident (y/n)?___________
+	   Comments_____________________________________________
    
 # Technologies
 
