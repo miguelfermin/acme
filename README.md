@@ -97,7 +97,10 @@ The system should have a pool of searchable Items that qualify for an available 
 Keep track of items that are intended to be added to a Plan so the user could finish the transaction later. This functionality is similar to an Amazon shopping cart where clients can add items and buy them later.
 
 ### Account
-In order to use the system, a user most have an account. The system should allow users to create accounts that contain their personal and contact information: `first Name`, `last Name`, `phone`, `email`, `street`, `city`, `state`, `zip code`, and `country`. As well as login credentials: `username` and `password`
+In order to use the system, a user most have an account. The system should allow users to create accounts that contain their personal and contact information.
+- To create an account (signup), the user must provide the following: `first Name`, `last Name`, `email`, and `password`.
+- To login, the user must provide the following: `email`, and `password`.
+- Once logged in, a user can add/edit the following: `first Name`, `last Name`, `phone`, `email`, `street`, `city`, `state`, `zip code`, and `country`.
 
 ### Billing
 Store customers' billing information which will be use to purshase Plans, pay recurring fees, and pay deductibles during a claim. Also, provide information about the next bill date, perhaps a billing history
