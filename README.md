@@ -100,7 +100,7 @@ Keep track of items that are intended to be added to a Plan so the user could fi
 In order to use the system, a user most have an account. The system should allow users to create accounts that contain their personal and contact information: `first Name`, `last Name`, `phone`, `email`, `street`, `city`, `state`, `zip code`, and `country`. As well as login credentials: `username` and `password`
 
 ### Billing
-Store customers' billing information which will be use to purshase Plans, pay recurring fees, and pay deductibles during a claim.
+Store customers' billing information which will be use to purshase Plans, pay recurring fees, and pay deductibles during a claim. Also, provide information about the next bill date, perhaps a billing history
 
 ### Claims
 The claims system should work as follows:
@@ -109,6 +109,7 @@ The claims system should work as follows:
 - System returns the form to complete
 - Client completes and submits the form
 - System accepts claim deductible payment
+- Sytem provides submitted claims information
 
 >The claim form is very simple and is the same for all Plans.
 
