@@ -94,8 +94,6 @@ After the Minimum Cost, the Plan increases as items added.
 The system should have a pool of searchable Items that qualify for an available Plan.
 >There's no point in having items that cannot be added to any plan.
 
-Keep track of items that are intended to be added to a Plan so the user could finish the transaction later. This functionality is similar to an Amazon shopping cart where clients can add items and buy them later.
-
 ### Account
 In order to use the system, a user most have an account. The system should allow users to create accounts that contain their personal and contact information.
 - To create an account (signup), the user must provide the following: `first Name`, `last Name`, `email`, and `password`.
