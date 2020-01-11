@@ -13,34 +13,17 @@ This repository is going to track Acme's ambitions to transform itself into a di
 	- [Billing](#billing)
 	- [Claims](#claims)
 - [Technologies](#technologies)
-	- [Backend - .Net Core 2.0](#backend---net-core-20)
+	- [Backend - .Net Core 2.0](#backend---go)
 	- [Mobile App - iOS](#mobile-app---ios)
 	- [Mobile App - Android](#mobile-app---android)
-	- [Web App - React](#web-app---react)
 - [Who do I talk to?](#who-do-i-talk-to)
 
 # Applications
-Acme wants to reach as many customers as possible, thus it plans to provide Mobile and Web apps to connect to its (*soon to be developed*) Backend system.
+Acme wants to reach as many customers as possible, thus it plans to provide Mobile and Web apps to connect to its (*soon to be developed*) Backend system. This digital power house consists of the following applications:
 
-This digital power house consists of the following applications:
-
-* [Backend App](https://github.com/miguelfermin/acme)
-* [iOS App](https://github.com/miguelfermin/acme-ios)
-* [Android App](https://github.com/miguelfermin/acme-android)
-* [Web App](https://github.com/miguelfermin/acme-web)
-
-System Requirements and the Backend Application are hosted on this repository. Client applications are hosted on their own repositories.
-
-Development is tracked in [Trello](https://trello.com) (*I personally prefer [Asana](https://asana.com/) but you can't have public boards for non-team members*). Below are the progress boards:
-
-- [acme](https://trello.com/b/myv4c7t9/acme)
-- [acme-ios](https://trello.com/b/vr7USb5m/acme-ios)
-- [acme-android](https://trello.com/b/ldwAQKcP/acme-android)
-- [acme-web](https://trello.com/b/3iwGk4oQ/acme-web)
-
->Besides development work, which is tracked on Trello, I needed a way to share my thought process as I develop these applications. I chose [postach.io](https://postach.io/site) because it's free, easy to use, and it syncs with my [Evernote](https://evernote.com/) account.
->
->I'll be posting my thought process as I work on this projects at my [postach site](http://miguelfermin.postach.io).
+* Backend App
+* Android App
+* iOS App
 
 ## System Requirements
 ### Plans
@@ -122,35 +105,27 @@ Sample form:
 	   Comments_____________________________________________
    
 # Technologies
-### Backend - .Net Core 2.0
-The backend is developed in [.NET Core 2](https://github.com/dotnet/core) on a mac using [Visual Studio for Mac Community](https://www.visualstudio.com/vs/mac/) and [Visual Studio Code](https://code.visualstudio.com).
-
-For persistene Entity Framework [EF Core 2.0.2](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/2.0.2) with [SQLite](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Sqlite) as the underlying database are used.
+### Backend - Go
+The backend is developed in [Go](https://golang.org) on a mac using [Goland](https://www.jetbrains.com/go) IDE. The Database of choice [MySQL](https://www.mysql.com) is use for persistence, along with [go-sql-driver](https://github.com/go-sql-driver/mysql).
 
 #### Architecture
 Pending...
 
 ### Mobile App - iOS
-Native [iOS](https://www.apple.com/ios/ios-11/) app develop in [Xcode](https://developer.apple.com/xcode/) using the [Swift](https://swift.org) Programming Language.
+Native [iOS](https://www.apple.com/ios/ios-11/) app develop in [Xcode](https://developer.apple.com/xcode/) using the [Swift](https://swift.org) Programming Language and [SwiftUI](https://developer.apple.com/xcode/swiftui/).
 
 [Repository](https://github.com/miguelfermin/acme-ios)
 
 ### Mobile App - Android
-Native [Android](https://www.android.com) app develop in [Android Studio](https://developer.android.com/studio/index.html) using the [Kotlin](https://kotlinlang.org) Programming Language.
+Native [Android](https://www.android.com) app develop in [Android Studio](https://developer.android.com/studio/index.html) using the [Kotlin](https://kotlinlang.org) Programming Language and [Jetpack Compose](https://developer.android.com/jetpack/compose).
 
 [Repository](https://github.com/miguelfermin/acme-android)
 
-### Web App - React
-A web app develop in [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) using the popular [React](https://reactjs.org) web-framework
-
-[Repository](https://github.com/miguelfermin/acme-web)
 
 # Who do I talk to?
 Miguel Fermin via
 
 [Email](mailto:mfermin@mafsoftware.com)
-
 [LinkedIn](https://www.linkedin.com/in/miguel-fermin-94658544/)
-
 [Twitter](https://twitter.com/mfermineet)
 
