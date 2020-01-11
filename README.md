@@ -13,17 +13,15 @@ This repository is going to track Acme's ambitions to transform itself into a di
 	- [Billing](#billing)
 	- [Claims](#claims)
 - [Technologies](#technologies)
-	- [Backend - .Net Core 2.0](#backend---go)
-	- [Mobile App - iOS](#mobile-app---ios)
-	- [Mobile App - Android](#mobile-app---android)
+	- Server
+	  - [Go](#go)
+	- Client
+	  - [Android](#android)
+	  - [iOS](#ios)
 - [Who do I talk to?](#who-do-i-talk-to)
 
 # Applications
-Acme wants to reach as many customers as possible, thus it plans to provide Mobile and Web apps to connect to its (*soon to be developed*) Backend system. This digital power house consists of the following applications:
-
-* Backend App
-* Android App
-* iOS App
+Acme wants to reach as many customers as possible, thus it plans to provide Mobile and Web apps to connect to its (*soon to be developed*) Backend system.
 
 ## System Requirements
 ### Plans
@@ -105,22 +103,18 @@ Sample form:
 	   Comments_____________________________________________
    
 # Technologies
-### Backend - Go
+### Server
+
+#### Go
 The backend is developed in [Go](https://golang.org) on a mac using [Goland](https://www.jetbrains.com/go) IDE. The Database of choice [MySQL](https://www.mysql.com) is use for persistence, along with [go-sql-driver](https://github.com/go-sql-driver/mysql).
 
-#### Architecture
-Pending...
+### Client
 
-### Mobile App - iOS
-Native [iOS](https://www.apple.com/ios/ios-11/) app develop in [Xcode](https://developer.apple.com/xcode/) using the [Swift](https://swift.org) Programming Language and [SwiftUI](https://developer.apple.com/xcode/swiftui/).
-
-[Repository](https://github.com/miguelfermin/acme-ios)
-
-### Mobile App - Android
+#### Android
 Native [Android](https://www.android.com) app develop in [Android Studio](https://developer.android.com/studio/index.html) using the [Kotlin](https://kotlinlang.org) Programming Language and [Jetpack Compose](https://developer.android.com/jetpack/compose).
 
-[Repository](https://github.com/miguelfermin/acme-android)
-
+#### iOS
+Native [iOS](https://www.apple.com/ios/ios-11/) app develop in [Xcode](https://developer.apple.com/xcode/) using the [Swift](https://swift.org) Programming Language and [SwiftUI](https://developer.apple.com/xcode/swiftui/).
 
 # Who do I talk to?
 Miguel Fermin via
