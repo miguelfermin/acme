@@ -9,7 +9,7 @@ This repository is going to track Acme's ambitions to transform itself into a di
 
 - [System Requirements](#system-requirements)
 	- [Plans](#plans)
-	- [Items](#items)
+	- [Products](#products)
 	- [Account](#account)
 	- [Billing](#billing)
 	- [Claims](#claims)
@@ -70,8 +70,8 @@ After the Minimum Cost, the Plan increases as items added.
 
 `Cost per Item` is simply the cost of adding an item to the Plan.
 
-### Items
-The system should have a pool of searchable Items that qualify for an available Plan.
+### Products
+The system should have a pool of searchable Products that qualify for an available Plan.
 >There's no point in having items that cannot be added to any plan.
 
 ### Account
