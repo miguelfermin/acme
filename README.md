@@ -104,7 +104,7 @@ Sample form:
 # Technologies
 ### Server
 
-- [Go](https://golang.org) app developed on a mac using [Goland](https://www.jetbrains.com/go) IDE. The Database of choice [MySQL](https://www.mysql.com) is use for persistence, along with [go-sql-driver](https://github.com/go-sql-driver/mysql).
+- [Go](https://golang.org){:target="_blank"} app developed on a mac using [Goland](https://www.jetbrains.com/go) IDE. The Database of choice [MySQL](https://www.mysql.com) is use for persistence, along with [go-sql-driver](https://github.com/go-sql-driver/mysql).
 
 ### Client
 
