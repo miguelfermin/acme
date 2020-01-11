@@ -1,11 +1,12 @@
-# acme
+# Acme Project
 Acme Corp is a fictional company that has been selling insurance products (*Plans*) for over 30 years. However, Acme hasn't kept up with technology and still sells its Plans over the phone, in person, or by mail. 
 
 Acme sells Auto, Home, Appliances, Retirement, Health, and Consumer Electronics Insurance Plans. But the initial plan is to digitize only Appliances and Consumer Electronics.
 
+Acme wants to reach as many customers as possible, thus it plans to provide Mobile and Web apps to connect to its (*soon to be developed*) Backend system.
+
 This repository is going to track Acme's ambitions to transform itself into a digital power house.
 
-- [Applications](#applications)
 - [System Requirements](#system-requirements)
 	- [Plans](#plans)
 	- [Items](#items)
@@ -18,10 +19,8 @@ This repository is going to track Acme's ambitions to transform itself into a di
 	- Client
 	  - [Android](#android)
 	  - [iOS](#ios)
+- [Architecture](#architecture)	  
 - [Who do I talk to?](#who-do-i-talk-to)
-
-# Applications
-Acme wants to reach as many customers as possible, thus it plans to provide Mobile and Web apps to connect to its (*soon to be developed*) Backend system.
 
 ## System Requirements
 ### Plans
@@ -105,21 +104,18 @@ Sample form:
 # Technologies
 ### Server
 
-#### Go
-The backend is developed in [Go](https://golang.org) on a mac using [Goland](https://www.jetbrains.com/go) IDE. The Database of choice [MySQL](https://www.mysql.com) is use for persistence, along with [go-sql-driver](https://github.com/go-sql-driver/mysql).
+- [Go](https://golang.org) app developed on a mac using [Goland](https://www.jetbrains.com/go) IDE. The Database of choice [MySQL](https://www.mysql.com) is use for persistence, along with [go-sql-driver](https://github.com/go-sql-driver/mysql).
 
 ### Client
 
-#### Android
-Native [Android](https://www.android.com) app develop in [Android Studio](https://developer.android.com/studio/index.html) using the [Kotlin](https://kotlinlang.org) Programming Language and [Jetpack Compose](https://developer.android.com/jetpack/compose).
+- Native [Android](https://www.android.com) app develop in [Android Studio](https://developer.android.com/studio/index.html) using the [Kotlin](https://kotlinlang.org) Programming Language and [Jetpack Compose](https://developer.android.com/jetpack/compose).
 
-#### iOS
-Native [iOS](https://www.apple.com/ios/ios-11/) app develop in [Xcode](https://developer.apple.com/xcode/) using the [Swift](https://swift.org) Programming Language and [SwiftUI](https://developer.apple.com/xcode/swiftui/).
+- Native [iOS](https://www.apple.com/ios/ios-11/) app develop in [Xcode](https://developer.apple.com/xcode/) using the [Swift](https://swift.org) Programming Language and [SwiftUI](https://developer.apple.com/xcode/swiftui/).
+
+# Architecture
+> Pending
 
 # Who do I talk to?
-Miguel Fermin via
+Miguel Fermin via [Email](mailto:mfermin@mafsoftware.com) or [LinkedIn](https://www.linkedin.com/in/miguel-fermin-94658544/)
 
-[Email](mailto:mfermin@mafsoftware.com)
-[LinkedIn](https://www.linkedin.com/in/miguel-fermin-94658544/)
-[Twitter](https://twitter.com/mfermineet)
 
