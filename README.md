@@ -19,7 +19,6 @@ This repository is going to track Acme's ambitions to transform itself into a di
 	- Client
 	  - [Android](#android)
 	  - [iOS](#ios)
-- [Architecture](#architecture)	  
 - [Who do I talk to?](#who-do-i-talk-to)
 
 ## System Requirements
@@ -111,9 +110,6 @@ Sample form:
 - Native [Android](https://www.android.com) app develop in [Android Studio](https://developer.android.com/studio/index.html) using the [Kotlin](https://kotlinlang.org) Programming Language and [Jetpack Compose](https://developer.android.com/jetpack/compose).
 
 - Native [iOS](https://www.apple.com/ios/ios-11/) app develop in [Xcode](https://developer.apple.com/xcode/) using the [Swift](https://swift.org) Programming Language and [SwiftUI](https://developer.apple.com/xcode/swiftui/).
-
-# Architecture
-> Pending
 
 # Who do I talk to?
 Miguel Fermin via [Email](mailto:mfermin@mafsoftware.com) or [LinkedIn](https://www.linkedin.com/in/miguel-fermin-94658544/)
