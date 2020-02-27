@@ -13,7 +13,7 @@ This repository is going to track Acme's ambitions to transform itself into a di
 	- [Account](#account)
 	- [Billing](#billing)
 	- [Claims](#claims)
-- [Technologies](#technologies)
+- [Projects](#projects)
 	- Server
 	  - [Go](#go)
 	- Client
@@ -100,7 +100,7 @@ Sample form:
 	   Was the item damaged in an accident (y/n)?___________
 	   Comments_____________________________________________
    
-# Technologies
+# Projects
 ### Server
 
 - [Go](https://golang.org) app developed on a mac using [Goland](https://www.jetbrains.com/go) IDE. The Database of choice [MySQL](https://www.mysql.com) is use for persistence, along with [go-sql-driver](https://github.com/go-sql-driver/mysql).
