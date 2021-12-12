@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import AcmeAccount
 
 @main
 struct AcmeApp: App {
+    @StateObject private var model = AccountModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(model)
         }
     }
 }

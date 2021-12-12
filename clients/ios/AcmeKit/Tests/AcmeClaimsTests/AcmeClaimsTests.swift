@@ -6,6 +6,6 @@ final class AcmeClaimsTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(AcmeClaims().text, "Hello, World!")
+//        XCTAssertEqual(AcmeClaims().text, "Hello, World!")
     }
 }

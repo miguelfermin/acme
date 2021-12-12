@@ -42,10 +42,14 @@ let package = Package(
         
         // MARK: - Specific modules
         .target(name: "AcmeAccount", dependencies: ["AcmeUI", "AcmeCore"], exclude: excludedFilenames),
-        .target(name: "AcmePlans", dependencies: ["AcmeUI", "AcmeCore"], exclude: excludedFilenames),
-        .target(name: "AcmeClaims", dependencies: ["AcmeUI", "AcmeCore"], exclude: excludedFilenames),
+        
+        .target(name: "AcmePlans", dependencies: ["AcmeUI", "AcmeCore", "AcmeBilling"], exclude: excludedFilenames),
+        
+        .target(name: "AcmeClaims", dependencies: ["AcmeUI", "AcmeCore", "AcmePlans", "AcmeAccount"], exclude: excludedFilenames),
+        
         .target(name: "AcmeBilling", dependencies: ["AcmeUI", "AcmeCore"], exclude: excludedFilenames),
-        .target(name: "AcmeSupport", dependencies: ["AcmeUI", "AcmeCore"], exclude: excludedFilenames),
+        
+        .target(name: "AcmeSupport", dependencies: ["AcmeUI", "AcmeCore", "AcmePlans"], exclude: excludedFilenames),
         
         // MARK: - Plugin interface module
         .target(name: "AcmePlugins", dependencies: [], exclude: excludedFilenames),
