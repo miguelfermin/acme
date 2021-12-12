@@ -3,6 +3,8 @@
 
 import PackageDescription
 
+let excludedFilenames = ["README.md"]
+
 let package = Package(
     name: "AcmeKit",
     defaultLocalization: "en",
@@ -34,21 +36,23 @@ let package = Package(
                 "AcmePlugins",
                 "AcmeUI",
                 "AcmeCore"
-            ]),
+            ],
+            exclude: excludedFilenames
+        ),
         
         // MARK: - Specific modules
-        .target(name: "AcmeAccount", dependencies: ["AcmeUI", "AcmeCore"]),
-        .target(name: "AcmePlans", dependencies: ["AcmeUI", "AcmeCore"]),
-        .target(name: "AcmeClaims", dependencies: ["AcmeUI", "AcmeCore"]),
-        .target(name: "AcmeBilling", dependencies: ["AcmeUI", "AcmeCore"]),
-        .target(name: "AcmeSupport", dependencies: ["AcmeUI", "AcmeCore"]),
+        .target(name: "AcmeAccount", dependencies: ["AcmeUI", "AcmeCore"], exclude: excludedFilenames),
+        .target(name: "AcmePlans", dependencies: ["AcmeUI", "AcmeCore"], exclude: excludedFilenames),
+        .target(name: "AcmeClaims", dependencies: ["AcmeUI", "AcmeCore"], exclude: excludedFilenames),
+        .target(name: "AcmeBilling", dependencies: ["AcmeUI", "AcmeCore"], exclude: excludedFilenames),
+        .target(name: "AcmeSupport", dependencies: ["AcmeUI", "AcmeCore"], exclude: excludedFilenames),
         
         // MARK: - Plugin interface module
-        .target(name: "AcmePlugins", dependencies: []),
+        .target(name: "AcmePlugins", dependencies: [], exclude: excludedFilenames),
         
         // MARK: - Generic modules
-        .target(name: "AcmeUI", dependencies: []),
-        .target(name: "AcmeCore", dependencies: []),
+        .target(name: "AcmeUI", dependencies: [], exclude: excludedFilenames),
+        .target(name: "AcmeCore", dependencies: [], exclude: excludedFilenames),
         
         // MARK: - Tests
         .testTarget(name: "AcmeAccountTests", dependencies: ["AcmeAccount"]),
