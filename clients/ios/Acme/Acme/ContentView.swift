@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if horizontalSizeClass == .compact {
+            AppTabNavigation()
+        } else {
+            AppSidebarNavigation()
+        }
     }
 }
 
