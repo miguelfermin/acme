@@ -13,6 +13,15 @@
 		1E4606A02765561E00F1858C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E46069F2765561E00F1858C /* Preview Assets.xcassets */; };
 		1E4606A72765639B00F1858C /* AppTabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4606A62765639B00F1858C /* AppTabNavigation.swift */; };
 		1E4606A9276563AE00F1858C /* AppSidebarNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4606A8276563AE00F1858C /* AppSidebarNavigation.swift */; };
+		1E4606AE276579A800F1858C /* AcmeAccount in Frameworks */ = {isa = PBXBuildFile; productRef = 1E4606AD276579A800F1858C /* AcmeAccount */; };
+		1E4606B0276579A800F1858C /* AcmeBilling in Frameworks */ = {isa = PBXBuildFile; productRef = 1E4606AF276579A800F1858C /* AcmeBilling */; };
+		1E4606B2276579A900F1858C /* AcmeClaims in Frameworks */ = {isa = PBXBuildFile; productRef = 1E4606B1276579A900F1858C /* AcmeClaims */; };
+		1E4606B4276579A900F1858C /* AcmeCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1E4606B3276579A900F1858C /* AcmeCore */; };
+		1E4606B6276579A900F1858C /* AcmeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1E4606B5276579A900F1858C /* AcmeKit */; };
+		1E4606B8276579A900F1858C /* AcmePlans in Frameworks */ = {isa = PBXBuildFile; productRef = 1E4606B7276579A900F1858C /* AcmePlans */; };
+		1E4606BA276579A900F1858C /* AcmePlugins in Frameworks */ = {isa = PBXBuildFile; productRef = 1E4606B9276579A900F1858C /* AcmePlugins */; };
+		1E4606BC276579A900F1858C /* AcmeSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 1E4606BB276579A900F1858C /* AcmeSupport */; };
+		1E4606BE276579A900F1858C /* AcmeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1E4606BD276579A900F1858C /* AcmeUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +32,7 @@
 		1E46069F2765561E00F1858C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1E4606A62765639B00F1858C /* AppTabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabNavigation.swift; sourceTree = "<group>"; };
 		1E4606A8276563AE00F1858C /* AppSidebarNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSidebarNavigation.swift; sourceTree = "<group>"; };
+		1E4606AB276578F400F1858C /* AcmeKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AcmeKit; path = ../AcmeKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +40,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E4606B0276579A800F1858C /* AcmeBilling in Frameworks */,
+				1E4606AE276579A800F1858C /* AcmeAccount in Frameworks */,
+				1E4606B2276579A900F1858C /* AcmeClaims in Frameworks */,
+				1E4606B8276579A900F1858C /* AcmePlans in Frameworks */,
+				1E4606BE276579A900F1858C /* AcmeUI in Frameworks */,
+				1E4606B4276579A900F1858C /* AcmeCore in Frameworks */,
+				1E4606B6276579A900F1858C /* AcmeKit in Frameworks */,
+				1E4606BC276579A900F1858C /* AcmeSupport in Frameworks */,
+				1E4606BA276579A900F1858C /* AcmePlugins in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				1E4606972765561E00F1858C /* Acme */,
+				1E4606AA276578F400F1858C /* Packages */,
 				1E4606962765561E00F1858C /* Products */,
+				1E4606AC276579A800F1858C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +94,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		1E4606AA276578F400F1858C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				1E4606AB276578F400F1858C /* AcmeKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		1E4606AC276579A800F1858C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,6 +125,17 @@
 			dependencies = (
 			);
 			name = Acme;
+			packageProductDependencies = (
+				1E4606AD276579A800F1858C /* AcmeAccount */,
+				1E4606AF276579A800F1858C /* AcmeBilling */,
+				1E4606B1276579A900F1858C /* AcmeClaims */,
+				1E4606B3276579A900F1858C /* AcmeCore */,
+				1E4606B5276579A900F1858C /* AcmeKit */,
+				1E4606B7276579A900F1858C /* AcmePlans */,
+				1E4606B9276579A900F1858C /* AcmePlugins */,
+				1E4606BB276579A900F1858C /* AcmeSupport */,
+				1E4606BD276579A900F1858C /* AcmeUI */,
+			);
 			productName = Acme;
 			productReference = 1E4606952765561E00F1858C /* Acme.app */;
 			productType = "com.apple.product-type.application";
@@ -347,6 +394,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E4606AD276579A800F1858C /* AcmeAccount */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AcmeAccount;
+		};
+		1E4606AF276579A800F1858C /* AcmeBilling */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AcmeBilling;
+		};
+		1E4606B1276579A900F1858C /* AcmeClaims */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AcmeClaims;
+		};
+		1E4606B3276579A900F1858C /* AcmeCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AcmeCore;
+		};
+		1E4606B5276579A900F1858C /* AcmeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AcmeKit;
+		};
+		1E4606B7276579A900F1858C /* AcmePlans */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AcmePlans;
+		};
+		1E4606B9276579A900F1858C /* AcmePlugins */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AcmePlugins;
+		};
+		1E4606BB276579A900F1858C /* AcmeSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AcmeSupport;
+		};
+		1E4606BD276579A900F1858C /* AcmeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AcmeUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E46068D2765561E00F1858C /* Project object */;
 }

@@ -1,5 +1,5 @@
 public struct AcmeSupport {
-    public private(set) var text = "Hello, World!"
+    public private(set) var text = "Hello, AcmeSupport!"
 
     public init() {
     }
