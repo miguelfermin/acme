@@ -37,11 +37,11 @@ let package = Package(
             ]),
         
         // MARK: - Specific modules
-        .target(name: "AcmeAccount", dependencies: []),
-        .target(name: "AcmePlans", dependencies: []),
-        .target(name: "AcmeClaims", dependencies: []),
-        .target(name: "AcmeBilling", dependencies: []),
-        .target(name: "AcmeSupport", dependencies: []),
+        .target(name: "AcmeAccount", dependencies: ["AcmeUI", "AcmeCore"]),
+        .target(name: "AcmePlans", dependencies: ["AcmeUI", "AcmeCore"]),
+        .target(name: "AcmeClaims", dependencies: ["AcmeUI", "AcmeCore"]),
+        .target(name: "AcmeBilling", dependencies: ["AcmeUI", "AcmeCore"]),
+        .target(name: "AcmeSupport", dependencies: ["AcmeUI", "AcmeCore"]),
         
         // MARK: - Plugin interface module
         .target(name: "AcmePlugins", dependencies: []),
