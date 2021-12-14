@@ -43,9 +43,9 @@ struct PlanView: View {
                 }
             }
             
-            Button("Edit Devices") {}
-            .buttonStyle(.borderedProminent)
-            .controlSize(.large)
+//            Button("Edit Devices") {}
+//            .buttonStyle(.borderedProminent)
+//            .controlSize(.large)
             
             Spacer()
         }
