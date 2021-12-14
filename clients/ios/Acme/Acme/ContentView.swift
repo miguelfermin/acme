@@ -16,13 +16,9 @@ struct ContentView: View {
     var body: some View {
         switch model.status {
         case .authenticated(let profile):
-            if horizontalSizeClass == .compact {
-                AppTabNavigation()
-                    .environmentObject(profile)
-            } else {
-                AppSidebarNavigation()
-                    .environmentObject(profile)
-            }
+            contentView
+                .environmentObject(profile)
+            
         case .unauthenticated(let model):
             LoginView(model: model)
             

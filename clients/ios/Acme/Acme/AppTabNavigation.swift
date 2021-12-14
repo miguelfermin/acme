@@ -32,7 +32,8 @@ struct AppTabNavigation: View {
             
             // MARK: - Plans Tab
             NavigationView {
-                PlansView()
+                PlansList()
+                    .environmentObject(PlansModel())
             }
             .tabItem {
                 let text = Text("Plans", comment: "Plans tab title")

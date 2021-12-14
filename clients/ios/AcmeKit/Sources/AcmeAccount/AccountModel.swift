@@ -39,11 +39,11 @@ extension AccountModel {
         
         status = .authenticating
         
-        await Time.sleep(for: 2)
+        await Time.sleep(for: 1)
         
         status = .unauthenticated(loginModel)
         
-        await Time.sleep(for: 2)
+        await Time.sleep(for: 1)
         
         let currentStatus = Status.authenticated(ProfileModel.sample)
         status = currentStatus

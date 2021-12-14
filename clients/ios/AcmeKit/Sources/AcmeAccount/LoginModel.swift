@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  LoginModel.swift
 //  
 //
 //  Created by Miguel Fermin on 12/12/21.

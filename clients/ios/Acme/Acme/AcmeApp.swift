@@ -15,6 +15,7 @@ struct AcmeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+//                .accentColor(.mint)
                 .environmentObject(model)
         }
     }
