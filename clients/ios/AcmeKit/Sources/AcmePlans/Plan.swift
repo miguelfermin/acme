@@ -10,7 +10,7 @@ import Foundation
 struct Plan: Identifiable, Hashable {
     var id: String
     var type: PlanType
-    var products: [PlanProduct.ID] = []
+    var products: [PlanDevice.ID] = []
 }
 
 extension Plan {

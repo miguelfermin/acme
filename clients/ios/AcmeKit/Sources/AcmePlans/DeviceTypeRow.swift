@@ -19,7 +19,8 @@ struct DeviceTypeRow: View {
                 .font(.caption)
                 .foregroundColor(.gray)
         }
-        .applyCardStyle(size: 100, borderWidth: 0.5)
+        .frame(size: 70)
+        .applyCardStyle()
     }
 }
 

@@ -43,6 +43,12 @@ struct PlanView: View {
                 }
             }
             
+            HStack {
+                Text("TV")
+                    .font(.headline)
+                Spacer()
+            }
+            
 //            Button("Edit Devices") {}
 //            .buttonStyle(.borderedProminent)
 //            .controlSize(.large)
